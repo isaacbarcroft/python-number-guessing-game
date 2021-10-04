@@ -2,9 +2,10 @@ from random import randint
 
 
 cpu_count = 0
+selection = input('1,2,3,4,5,6,7,8,9,10')
 
 while cpu_count < 3 or selection == options[index]:
-    selection = input('1,2,3,4,5,6,7,8,9,10')
+    
     options = ['1', '2', '3','4', '5', '6', '7', '8', '9', '10']
     index = randint(0, 9)
     print(options[index])
